@@ -1,6 +1,5 @@
 package cz.czechitas.ukol07.svatky;
 
-
 import java.time.MonthDay;
 
 public class Svatek {
