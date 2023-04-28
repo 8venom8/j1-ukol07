@@ -1,9 +1,10 @@
 package cz.czechitas.ukol07.svatky;
 
+
 import java.time.MonthDay;
 
 public class Svatek {
-    //TODO implementovat properties pro "den" typu MonthDay a "jmeno" typu String.
+    //implementovat properties pro "den" typu MonthDay a "jmeno" typu String.
 
     private MonthDay den;
     private String jmeno;
