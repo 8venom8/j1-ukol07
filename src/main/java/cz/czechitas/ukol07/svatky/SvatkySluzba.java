@@ -18,10 +18,8 @@ public class SvatkySluzba {
     private final SeznamSvatku seznamSvatku;
 
     public SvatkySluzba() throws IOException {
-        // TODO načíst seznam svátků ze souboru svatky.json
-
-        // Následující řádek po vlastní implementaci smažete.
-        seznamSvatku = null;
+        //načíst seznam svátků ze souboru svatky.json
+        seznamSvatku = objectMapper.readValue(Path.of("svatky.json").toFile(), SeznamSvatku.class);
     }
 
     public List<String> vyhledatSvatkyDnes() {
